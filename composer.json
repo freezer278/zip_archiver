@@ -1,0 +1,27 @@
+{
+    "name": "vmorozov/zip_archiver",
+    "description": "Package that simplifies common zip tasks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Morozov",
+            "email": "freezer278@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "^9.3"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Vmorozov\\ZipArchiver\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vmorozov\\ZipArchiver\\Tests\\": "tests"
+        }
+    }
+}
